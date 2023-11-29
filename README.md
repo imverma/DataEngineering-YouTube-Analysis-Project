@@ -1,8 +1,8 @@
 # Data Engineering YouTube Analysis Project
 
-## Overview
+## Project Overview
 
-This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics.
+This project is centered around efficiently managing, streamlining, and performing comprehensive analysis on structured and semi-structured YouTube video data. The initiative begins by ingesting data from the Kaggle Dataset. Thereafter, we utilize AWS Lambda for the data cleaning process. The subsequent phase involves processing via the Glue ETL job. Once the processing is complete, the data finds its resting place in AWS Athena, achieved by running Glue Crawler on the dedicated S3 buckets. The culmination of the project lies in the analysis, executed through AWS Quicksight. Additionally, efforts have been put into generating insightful reports via Tableau.
 
 ## Project Goals
 1. Data Ingestion — Build a mechanism to ingest data from different sources
